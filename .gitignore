@@ -1,15 +1,29 @@
+# Android/IntelliJ files
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
 local.properties
+build/
+captures/
+.cxx/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Kotlin-specific
+.kotlinc/
+.kotlin/
+
+# Log & crash dump files
+*.log
+hs_err_pid*
+
+# Jetpack Compose previews
+*.preview.db
+
+# Android Studio 2022.3+ (Kotlin Debugging sessions etc.)
+.kotlin/
+
+# VS Code users (optional)
+.vscode/
